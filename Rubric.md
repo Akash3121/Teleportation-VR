@@ -11,3 +11,10 @@ Graded out of 20 points.
 1. Finally, you can complete this assignment by modifying the camera rig's rotation so that the user's viewpoint is pointing in the specified direction after the teleport.  (4)
 
 **Bonus Challenge:**  Make your teleportation script smarter!  When the user is pointing directly at a `TeleportationTarget` , the teleport should work using the direct straight line raycast as described above.  If they are not pointing at a valid target, then the script should use a parabolic arc to attempt to find another target.  This will allow the user to point above the ground, and the laser pointer will adapt and curve downwards.  Note that this is actually quite complicated to implement, so you are free to use code from online or third party assets to implement the trajectory calculations and/or line drawing for the parabolic arc.  The teleportation functionality must be solely written by you.  Make sure to include comments on any external code and document the source in your readme file.  (2)
+
+
+Instructions for controlling teleport directions:
+
+- Objects that are in pink are teleportable object (they have teleportation tag)
+- right controller to point the array and left controller Thumbstick to rotate Arrow
+- By default the arrow points towards the ray(the player)
